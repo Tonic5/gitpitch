@@ -22,6 +22,9 @@ javac 1.8.0_144
 # install sbt (scala build tool) via homebrew:
 $ brew install sbt@1
 
+# ensure this dir exists, writeable:
+$ mkdir -p /tmp/gitpitch/swap
+
 $ cd ~/repos/github
 $ git clone git@github.com:Tonic5/gitpitch.git
 $ cd ~/repos/github/Tonic5/gitpitch
