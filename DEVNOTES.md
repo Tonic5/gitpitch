@@ -49,7 +49,7 @@ $ sbt dist
 
 ```sh
 # LOCAL DEV WORKFLOW
-# instead of deploying, can simply run in dev mode, directly from local source
+# instead of deploying, can simply run in dev mode, directly from local source (tho gitpitch per se pulls from gh repo absent pita workaround)
 # cf https://playframework.com/documentation/2.5.x/Deploying#Running-a-production-server-in-place
 
 $ sbt run
@@ -65,5 +65,7 @@ http://gitpitch.local:9000/gitpitch/kitchen-sink
 
 # point browser to T5 'foodtech-pitchdeck' preso
 http://gitpitch.local:9000/Tonic5/presos/foodtech-pitchdeck
+
+# TBD point browser to local filesystem (sans pita workaround/hacks)
 
 ```
